@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="browser1" value="chrome"></parameter>
+  <test  name="Test">
+	<!-- <groups>
+	<run>
+	<include name="smoke"></include>
+	<include name="regression"></include>
+	</run>
+	</groups> -->
+    <classes>
+      <class name="chiselon.jerkins.Test_1">
+      <!-- <methods>
+      <include name="m1"></include>
+      <include name="m2"></include>
+      </methods> -->
+      </class>
+      <class name="com.chiselon.jenkins1.FirstTest"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
